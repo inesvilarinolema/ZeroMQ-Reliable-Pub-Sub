@@ -1,0 +1,5 @@
+
+CREATE TABLE IF NOT EXISTS mensajes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    mensaje_json TEXT NOT NULL
+);
